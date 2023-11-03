@@ -24,5 +24,16 @@ $(function () {
 
 $(".future").css("background-color", "blue");
 
-let time = new Date()
-console.log(time);
+      function updateDateTime() {
+        const time = new Date();
+        const currentDateTime = time.toLocaleString();
+        document.querySelector('#datetime').textContent = currentDateTime;
+      }
+
+      setInterval(updateDateTime, 1000);
+
+      const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const d = new Date();
+let day = weekday[d.getDay()];
+document.getElementById("dayOfTheWeek").innerHTML = day;

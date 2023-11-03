@@ -2,6 +2,27 @@
   text-align: center;
 }
 
+.lead {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#dayOfTheWeek {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+#datetime {
+  font-size: 30px;
+  padding-left: 37%;
+ text-align: center;
+ color: #000000;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
