@@ -31,23 +31,6 @@ const d = new Date();
 let day = weekday[d.getDay()];
 document.getElementById("dayOfTheWeek").innerHTML = day;
 
-const element = document.getElementById("b1");
-element.addEventListener("click", myFunction);
-console.log(element);
-
-function myFunction() {
-  document.getElementById("b1").innerHTML = "";
-}
-
-function createItem() {
-  localStorage.setItem("b1", Date.now());
-}
-
-function readValue() {
-  var x = localStorage.getItem("b1");
-  document.getElementById("b1").innerHTML = x;
-}
-
 var saveButtons = $(".saveBtn")
 saveButtons.on("click", function (event) {
   console.log(event.target);
