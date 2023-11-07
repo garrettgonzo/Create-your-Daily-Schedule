@@ -36,7 +36,7 @@ element.addEventListener("click", myFunction);
 console.log(element);
 
 function myFunction() {
-  document.getElementById("b1").innerHTML = "Saved";
+  document.getElementById("b1").innerHTML = "";
 }
 
 function createItem() {
