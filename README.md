@@ -26,6 +26,8 @@ WHEN I the generator is pushed out and live on the web
 
 ## Deployed URL
 
+https://garrettgonzo.github.io/Create-your-Daily-Schedule/
+
 ## Website Screenshot
 
 ![Work Day Scheduler Screenshot](<Screenshot (1148).png>)
